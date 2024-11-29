@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Adiciona um padding geral para afastar o conteúdo das bordas */
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Sombra suave para dar profundidade */
+    border-radius: 10px;
+    margin-bottom: 50px; /* Espaçamento abaixo do header */
+}
+
+.title {
+    font-size: 2.5em; /* Aumenta o tamanho do título */
+    font-family: "Bebas Neue", "sans-serif";
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra para destacar o título */
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 600px; /* Aumenta o tamanho máximo do contêiner */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centraliza o contêiner */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Bebas Neue", "sans-serif";
+    font-weight: 400;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Animações suaves */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Aumenta o botão */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo da frase */
+}
+
+.continue-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Espaçamento acima do contêiner */
+}
+
+.continue-button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Bebas Neue", "sans-serif";
+    font-weight: 400;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Animações suaves */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-right: 10px; /* Espaçamento entre o botão e o ícone */
+    text-decoration: none; /* Remove sublinhado do link */
+    text-align: center; /* Centraliza o texto no botão */
+}
+
+
+.continue-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Aumenta o botão */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+.running-icon {
+    width: 40px; /* Tamanho do ícone animado */
+}
